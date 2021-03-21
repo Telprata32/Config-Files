@@ -1,4 +1,3 @@
-" Just checking if this goes in
 syntax on
 
 "Settings 
