@@ -105,6 +105,7 @@ let g:multi_cursor_quit_key            = '<Esc>'
 let g:coc_global_extensions = [
   \ 'coc-snippets',
   \ 'coc-pairs',
+  \ 'coc-prettier',
   \ 'coc-tsserver',
   \ 'coc-eslint', 
   \ 'coc-json', 
