@@ -73,6 +73,8 @@ Plug 'octol/vim-cpp-enhanced-highlight'
 "Colorscheme Plugins
 Plug 'morhetz/gruvbox'
 Plug 'jacoborus/tender.vim'
+Plug 'junegunn/seoul256.vim'
+Plug 'vim-airline/vim-airline-themes'
 
 call plug#end()
 
@@ -204,5 +206,5 @@ let g:closetag_close_shortcut = '<leader>>'
 
 " ---------------------- Aesthetic -------------------------------
 "set colorscheme
-colorscheme tender
-let g:airline_theme='tender'
+colorscheme seoul256
+let g:airline_theme='alduin'
