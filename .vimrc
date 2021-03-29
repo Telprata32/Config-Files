@@ -143,10 +143,10 @@ let g:cpp_experimental_simple_template_highlight = 1
 let g:cpp_concepts_highlight = 1
 
 " Tagbar setting
-"let g:tagbar_ctags_bin
+let g:tagbar_ctags_bin = '/usr/local/bin/ctags'
 
 " Remap tagbar toggle
-" nmap <C-S-j> :TagbarToggle<CR>
+nnoremap <silent> <F8> :TagbarToggle<CR>
 
 
 "=====================  NerdCommenter settings =============================

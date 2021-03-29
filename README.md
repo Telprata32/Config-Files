@@ -12,5 +12,4 @@ After downloading the config files, here is the procedure
 2. Edit the colorscheme "tender.vim": 
     a) change --> LineNr guifg=#695b45
     b) change --> CursorLineNr guifg=#a9e2fc
-
-
+3. Install the ctags from https://github.com/universal-ctags/ctags and follow the steps
