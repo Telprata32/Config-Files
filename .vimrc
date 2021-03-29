@@ -146,7 +146,7 @@ let g:cpp_concepts_highlight = 1
 let g:tagbar_ctags_bin = '/usr/local/bin/ctags'
 
 " Remap tagbar toggle
-nnoremap <silent> <F8> :TagbarToggle<CR>
+nnoremap <silent> <C-e> :TagbarToggle<CR>
 
 
 "=====================  NerdCommenter settings =============================
