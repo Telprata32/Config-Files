@@ -65,10 +65,14 @@ Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 "Plug 'bagrat/vim-buffet'
 
-"Syntax Highlighters
+" =========== Syntax Highlighters =============
 Plug 'uiiaoo/java-syntax.vim'
 Plug 'vim-python/python-syntax'
 Plug 'octol/vim-cpp-enhanced-highlight'
+" Colored Brackets
+Plug 'frazrepo/vim-rainbow'
+let g:rainbow_active = 1
+let g:rainbow_guifgs = ['RoyalBlue3', 'DarkOrange3', 'DarkOrchid3', 'FireBrick']
 
 "Colorscheme Plugins
 Plug 'morhetz/gruvbox'
