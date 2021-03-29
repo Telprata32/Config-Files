@@ -109,11 +109,11 @@ let g:coc_global_extensions = [
   \ 'coc-pairs',
   \ 'coc-prettier',
   \ 'coc-tsserver',
+  \ 'coc-pyright',
+  \	'coc-kite',
   \ 'coc-eslint', 
   \ 'coc-json', 
-  \	'coc-kite',
   \	'coc-java',
-  \	'coc-python',
   \ 'coc-phpls',
   \ 'coc-html',
   \ ]
