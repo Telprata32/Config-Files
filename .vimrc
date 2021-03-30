@@ -64,7 +64,8 @@ Plug 'ctrlpvim/ctrlp.vim'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 "Plug 'bagrat/vim-buffet'
-
+" ==== Airline Git branch indicator
+Plug 'tpope/vim-fugitive'
 " =========== Syntax Highlighters =============
 Plug 'uiiaoo/java-syntax.vim'
 Plug 'vim-python/python-syntax'
@@ -75,10 +76,9 @@ let g:rainbow_active = 1
 let g:rainbow_guifgs = ['#8cf1fa', 'DarkOrange3', 'DarkOrchid3', '#bf0a5e','#90d914']
 
 "Colorscheme Plugins
-Plug 'morhetz/gruvbox'
-Plug 'jacoborus/tender.vim'
 Plug 'junegunn/seoul256.vim'
 Plug 'vim-airline/vim-airline-themes'
+Plug 'sainnhe/everforest'
 
 call plug#end()
 
@@ -211,4 +211,4 @@ let g:closetag_close_shortcut = '<leader>>'
 " ---------------------- Aesthetic -------------------------------
 "set colorscheme
 colorscheme seoul256
-let g:airline_theme='alduin'
+let g:airline_theme='everforest'
