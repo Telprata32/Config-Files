@@ -122,6 +122,8 @@ let g:coc_global_extensions = [
   \ 'coc-html',
   \ ]
 
+nmap <Esc> :call coc#float#close_all() <CR>
+
 "----------------------- Coc Key Remapping --------------------------
 " Use <c-space> to enter selected.
 inoremap <expr> <cr> pumvisible() ? "\<C-y>" : "\<C-g>u\<CR>"
