@@ -53,7 +53,7 @@ Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
 Plug 'ryanoasis/vim-devicons'
 Plug 'https://github.com/vim-airline/vim-airline' " Status bar
 Plug 'preservim/nerdcommenter' " Toggle commenter
-Plug 'tpope/vim-commentary'
+Plug 'tpope/vim-commentary' 
 Plug 'airblade/vim-gitgutter' " git diff highlighting
 Plug 'preservim/tagbar' "To browse all variables, functions, etc.
 Plug 'alvan/vim-closetag' " Auto close html,xml,etc. tags
@@ -65,12 +65,16 @@ Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 "Plug 'bagrat/vim-buffet'
 Plug 'ObserverOfTime/coloresque.vim' "Vim colour preview on hex values, etc.
+Plug 'szw/vim-maximizer'
 " ==== Airline Git branch indicator
 Plug 'tpope/vim-fugitive' "Git plugin for vim
 " =========== Syntax Highlighters =============
 Plug 'uiiaoo/java-syntax.vim'
 Plug 'vim-python/python-syntax'
 Plug 'octol/vim-cpp-enhanced-highlight'
+" ======================== Vim Debugger =========================
+Plug 'puremourning/vimspector'
+
 "================ Colored Brackets ==============
 "Plug 'frazrepo/vim-rainbow' "Old colorbracket pairing plugin
 Plug 'luochen1990/rainbow'
@@ -139,6 +143,11 @@ Plug 'sainnhe/everforest'
 
 call plug#end()
 
+" ======================= Vim-maximizer ==================
+nnoremap <silent><leader>z :MaximizerToggle<CR>
+vnoremap <silent><leader>z :MaximizerToggle<CR>gv
+inoremap <silent><leader>z <C-o>:MaximizerToggle<CR>
+
 " ======================== Vim-Cutlass =====================
 "Remapping to complement vim-cutlass
 nnoremap x d
@@ -205,7 +214,7 @@ let g:cpp_concepts_highlight = 1
 let g:tagbar_ctags_bin = '/usr/local/bin/ctags'
 
 " Remap tagbar toggle
-nnoremap <silent> <C-e> :TagbarToggle<CR>
+nnoremap <silent> <leader>v :TagbarToggle<CR>
 
 
 "=====================  NerdCommenter settings =============================
