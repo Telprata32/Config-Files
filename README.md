@@ -9,7 +9,4 @@ Pre-Requirsites:
 After downloading the config files, here is the procedure
 
 1. Run the "sudo apt install ccls" (for the c++ support in the coc-settings.json file)
-2. Edit the colorscheme "tender.vim": 
-    a) change --> LineNr guifg=#695b45
-    b) change --> CursorLineNr guifg=#a9e2fc
-3. Install the ctags from https://github.com/universal-ctags/ctags and follow the steps
+2. Install the ctags from https://github.com/universal-ctags/ctags and follow the steps
