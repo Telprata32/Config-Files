@@ -12,6 +12,9 @@ set mouse=a
 set cursorline
 set smarttab
 
+" Disable C++ auto formatting
+let g:clang_format#auto_format=0
+
 " map CTRL-l to escape insert mode
 imap <C-l> <esc>
 
@@ -74,6 +77,7 @@ Plug 'vim-python/python-syntax'
 Plug 'octol/vim-cpp-enhanced-highlight'
 " ======================== Vim Debugger =========================
 Plug 'puremourning/vimspector'
+let g:vimspector_enable_mappings = 'HUMAN'
 
 "================ Colored Brackets ==============
 "Plug 'frazrepo/vim-rainbow' "Old colorbracket pairing plugin
