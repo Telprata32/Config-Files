@@ -64,18 +64,20 @@ Plug 'ctrlpvim/ctrlp.vim'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 "Plug 'bagrat/vim-buffet'
+Plug 'ObserverOfTime/coloresque.vim' "Vim colour preview on hex values, etc.
 " ==== Airline Git branch indicator
-Plug 'tpope/vim-fugitive'
+Plug 'tpope/vim-fugitive' "Git plugin for vim
 " =========== Syntax Highlighters =============
 Plug 'uiiaoo/java-syntax.vim'
 Plug 'vim-python/python-syntax'
 Plug 'octol/vim-cpp-enhanced-highlight'
-" Colored Brackets
-"Plug 'frazrepo/vim-rainbow'
+"================ Colored Brackets ==============
+"Plug 'frazrepo/vim-rainbow' "Old colorbracket pairing plugin
 Plug 'luochen1990/rainbow'
+" =========== Brackets Config =============
 let g:rainbow_active = 1
 let g:rainbow_conf = {
-\	'guifgs': ['#8cf1fa', 'DarkOrange3', 'DarkOrchid3', '#bf0a5e','#90d914'],
+\	'guifgs': ['#dbf277', '#9fcccd', '#dbaef5', '#4db9f0', '#82e0b3'],
 \	'guis': [''],
 \	'cterms': [''],
 \	'operators': '_,_',
