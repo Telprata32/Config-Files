@@ -12,6 +12,8 @@ set termguicolors
 set mouse=a
 set cursorline
 set smarttab
+set incsearch
+set scrolloff=5
 
 " map CTRL-l to escape insert mode
 imap <C-l> <esc>
@@ -20,6 +22,8 @@ imap <C-l> <esc>
 nnoremap <C-n> :NERDTree<CR>
 nnoremap <Tab> gt 
 nnoremap <S-Tab> gT
+"Invoke terminal and split open at the bottom
+noremap <F5> :below split \| term<CR>
 
 " Remaping for CAPS key in vim
 " Execute 'lnoremap x X' and 'lnoremap X x' for each letter a-z.
@@ -281,3 +285,4 @@ let g:closetag_close_shortcut = '<leader>>'
 "set colorscheme
 colorscheme seoul256
 let g:airline_theme='everforest'
+"highlight Normal guibg=NONE

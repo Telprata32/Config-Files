@@ -12,7 +12,17 @@ set termguicolors
 set mouse=a
 set cursorline
 set smarttab
+set incsearch
+set nohlsearch
+set scrolloff=5
 
+"set hlsearch on temporarily only
+augroup vimrc-incsearch-highlight
+	autocmd!
+	autocmd CmdlineEnter /,\? :set hlsearch
+	autocmd CmdlineLeave /,\? :set nohlsearch
+augroup END
+		
 " map CTRL-l to escape insert mode
 imap <C-l> <esc>
 
@@ -20,6 +30,8 @@ imap <C-l> <esc>
 nnoremap <C-n> :NERDTree<CR>
 nnoremap <Tab> gt 
 nnoremap <S-Tab> gT
+"Invoke terminal and split open at the bottom
+noremap <F5> :below split \| term<CR>
 
 " Remaping for CAPS key in vim
 " Execute 'lnoremap x X' and 'lnoremap X x' for each letter a-z.
@@ -165,9 +177,9 @@ noremap <C-c> "+y
 let g:multi_cursor_use_default_mapping=0
 " Default mapping
 let g:multi_cursor_start_word_key      = '<C-m>'
-let g:multi_cursor_select_all_word_key = '<C-S-l>'
+let g:multi_cursor_select_all_word_key = '<A-m>'
 let g:multi_cursor_start_key           = 'g<C-m>'
-let g:multi_cursor_select_all_key      = 'g<C-S-l>'
+let g:multi_cursor_select_all_key      = 'g<A-m>'
 let g:multi_cursor_next_key            = '<C-m>'
 let g:multi_cursor_prev_key            = '<C-p>'
 let g:multi_cursor_skip_key            = '<C-x>'
@@ -281,3 +293,4 @@ let g:closetag_close_shortcut = '<leader>>'
 "set colorscheme
 colorscheme seoul256
 let g:airline_theme='everforest'
+"highlight Normal guibg=none
