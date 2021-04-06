@@ -23,6 +23,9 @@ augroup vimrc-incsearch-highlight
 	autocmd CmdlineLeave /,\? :set nohlsearch
 augroup END
 		
+"Search visually selected word
+vnoremap // y/\V<C-R>=escape(@",'/\')<CR><CR>
+
 " map CTRL-l to escape insert mode
 imap <C-l> <esc>
 
@@ -79,8 +82,11 @@ Plug 'junegunn/fzf.vim'
 "Plug 'bagrat/vim-buffet'
 Plug 'ObserverOfTime/coloresque.vim' "Vim colour preview on hex values, etc.
 Plug 'szw/vim-maximizer'
-" ==== Airline Git branch indicator
+" ======== Airline Git branch indicator =======
 Plug 'tpope/vim-fugitive' "Git plugin for vim
+"Remapping <leader>G to invoke git
+nnoremap <leader>g :G<CR>
+
 " =========== Syntax Highlighters =============
 Plug 'uiiaoo/java-syntax.vim'
 Plug 'vim-python/python-syntax'
@@ -228,7 +234,8 @@ let g:tagbar_ctags_bin = '/usr/local/bin/ctags'
 
 " Remap tagbar toggle
 nnoremap <silent> <leader>v :TagbarToggle<CR>
-
+" Settings for tags file
+set tags=tags;/
 
 "=====================  NerdCommenter settings =============================
 

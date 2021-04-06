@@ -220,7 +220,8 @@ let g:tagbar_ctags_bin = '/usr/local/bin/ctags'
 
 " Remap tagbar toggle
 nnoremap <silent> <leader>v :TagbarToggle<CR>
-
+"Setting for tags files 
+set tags=tags;/
 
 "=====================  NerdCommenter settings =============================
 
