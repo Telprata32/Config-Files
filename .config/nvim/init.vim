@@ -29,10 +29,12 @@ vnoremap // y/\V<C-R>=escape(@",'/\')<CR><CR>
 " map CTRL-l to escape insert mode
 imap <C-l> <esc>
 
-"Key remapping
+"====== Key remapping
 nnoremap <C-n> :NERDTree<CR>
 nnoremap <Tab> gt 
 nnoremap <S-Tab> gT
+" Close a tab 
+nnoremap <A-q> :tabclose<CR>
 "Invoke terminal and split open at the bottom
 noremap <F5> :below split \| term<CR>
 
