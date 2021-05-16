@@ -49,9 +49,9 @@ endfor
 autocmd InsertLeave * set iminsert=0
 
 " Remapping so that when hitting enter between parantheses will add an extra lines
-inoremap {<cr> {<cr>}<c-o>O<tab>
-inoremap [<cr> [<cr>]<c-o>O<tab>
-inoremap (<cr> (<cr>)<c-o>O<tab>
+inoremap {<cr> {<cr>}<c-o>O
+inoremap [<cr> [<cr>]<c-o>O
+inoremap (<cr> (<cr>)<c-o>O
 
 " Map Ctrl-Backspace to delete the previous word in insert mode.
 imap <C-H> <C-W>
