@@ -23,6 +23,9 @@ augroup vimrc-incsearch-highlight
 	autocmd CmdlineLeave /,\? :set nohlsearch
 augroup END
 		
+"Set word wrap and line break for txt files only
+autocmd BufRead,BufNewFile   *.txt setlocal wrap linebreak
+
 "Search visually selected word
 vnoremap // y/\V<C-R>=escape(@",'/\')<CR><CR>
 
