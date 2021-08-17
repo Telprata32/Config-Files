@@ -1,5 +1,5 @@
 # Config-File
-Contains all my config files 
+## ""Contains all my config files"" 
 
 Set up the git bare folder ("dotfiles") before doing anything:
 1. install git
