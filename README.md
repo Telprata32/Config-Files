@@ -18,5 +18,13 @@ After downloading the config files, here is the procedure
 2. Install the ctags from https://github.com/universal-ctags/ctags and follow the steps
 
 # Vim KeyBindings and other How-to
-
+## Vim-Fugitive
+**<leader>** - bring up vim-fugitive menu
+## Vim-Tagbar
+**<leader>v** - bring up tagbar
 ## Gitgutter
+**]c** - next hunk  
+**\[c** - previous hunk  
+**<leader>hp** - preview diff hunk  
+**<leader>hs** - stage hunk  
+**<leader>hu** - undo hunk
