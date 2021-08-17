@@ -19,12 +19,12 @@ After downloading the config files, here is the procedure
 
 # Vim KeyBindings and other How-to
 ## Vim-Fugitive
-**<leader>** - bring up vim-fugitive menu
+**\<leader\>g** - bring up vim-fugitive menu
 ## Vim-Tagbar
-**<leader>v** - bring up tagbar
+**\<leader\>v** - bring up tagbar
 ## Gitgutter
 **]c** - next hunk  
 **\[c** - previous hunk  
-**<leader>hp** - preview diff hunk  
-**<leader>hs** - stage hunk  
-**<leader>hu** - undo hunk
+**\<leader\>hp** - preview diff hunk  
+**\<leader\>hs** - stage hunk  
+**\<leader\>hu** - undo hunk
