@@ -1,10 +1,16 @@
 # Config-File
 Contains all my config files 
 
-Pre-Requirsites:
+Set up the git bare folder ("dotfiles") before doing anything:
 1. install git
-2. install nodejs
-3. go to: https://github.com/junegunn/vim-plug , and perform "curl" to install plugin manager
+2. Create a folder called "dotfiles" in the home folder
+3. Do a "git init --bare into the file"
+4. Download fish and copy the .config/fish/config.fish texts and paste into local config.fish
+5. Then perform a "config clone {this repo}" in the home folder
+
+Pre-Requirsites for setting up vim:
+1. install nodejs
+2. go to: https://github.com/junegunn/vim-plug , and perform "curl" to install plugin manager
 
 After downloading the config files, here is the procedure
 
