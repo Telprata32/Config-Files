@@ -40,6 +40,9 @@ nnoremap <S-Tab> gT
 nnoremap <A-q> :tabclose<CR>
 "Invoke terminal and split open at the bottom
 noremap <F5> :below split \| term<CR>
+" Save a file with Ctrl+S 
+inoremap <C-s> <esc>:w<CR>
+noremap <C-s> :w<CR>
 
 " Remaping for CAPS key in vim
 " Execute 'lnoremap x X' and 'lnoremap X x' for each letter a-z.
