@@ -18,6 +18,12 @@ After downloading the config files, here is the procedure
 2. Install the ctags from https://github.com/universal-ctags/ctags and follow the steps
 
 # Vim KeyBindings 
+## General
+### Moving Splits
+**Far Left** - \<C-w>H  
+**Far Right** - \<C-w>L  
+**Far Down** - \<C-w>J  
+**Far Up** - \<C-w>K
 ## Vim-Fugitive
 **\<leader\>g** - bring up vim-fugitive menu
 ## Vim-Tagbar
