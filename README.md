@@ -19,11 +19,22 @@ After downloading the config files, here is the procedure
 
 # Vim KeyBindings 
 ## General
+### Incremental search
+#### - After Inc. Search:
+**Next Search** - n  
+**Prev. Search** - N
+#### - During Inc. Search:
+**Next Search** - \<C-g>  
+**Prev. Search** - \<C-t>  
+
+
 ### Moving Splits
 **Far Left** - \<C-w>H  
 **Far Right** - \<C-w>L  
 **Far Down** - \<C-w>J  
-**Far Up** - \<C-w>K
+**Far Up** - \<C-w>K  
+
+
 ### Maximizing/Minimizing Splits
 **Max/Min** - \<leader>z
 ## Vim-Fugitive
