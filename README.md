@@ -47,6 +47,6 @@ After downloading the config files, here is the procedure
 **\<leader\>hp** - preview diff hunk  
 **\<leader\>hs** - stage hunk  
 **\<leader\>hu** - undo hunk
-##Ctags
+## Ctags
 **\<C-]>** - go to variable/function's declaration  
 **\<C-t>** - go back to original cursor location
