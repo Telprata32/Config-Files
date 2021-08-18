@@ -24,6 +24,8 @@ After downloading the config files, here is the procedure
 **Far Right** - \<C-w>L  
 **Far Down** - \<C-w>J  
 **Far Up** - \<C-w>K
+### Maximizing/Minimizing Splits
+**Max/Min** - \<leader>z
 ## Vim-Fugitive
 **\<leader\>g** - bring up vim-fugitive menu
 ## Vim-Tagbar
