@@ -39,8 +39,8 @@ After downloading the config files, here is the procedure
 **Max/Min** - \<leader>z
 ## Vim-Fugitive
 **\<leader\>g** - bring up vim-fugitive menu
-## Vim-Tagbar
-**\<leader\>v** - bring up tagbar
+## Vim-Tagbar (To view all variables/functions/classes/etc)
+**\<leader\>v** - bring up tagbar 
 ## Gitgutter
 **]c** - next hunk  
 **\[c** - previous hunk  
@@ -50,3 +50,11 @@ After downloading the config files, here is the procedure
 ## Ctags
 **\<C-]>** - go to variable/function's declaration  
 **\<C-t>** - go back to original cursor location
+
+## Vim CtrlP (like Ctrl + P on VS Code)
+**\<C-p>** - to start up
+**\<C-f>** - cycle to next mode
+**\<C-b>** - cycle to previous mode
+**\<C-d>** - switch to "Search by file name" (press again to switch back
+
+**[Full CtrlP documentation: http://ctrlpvim.github.io/ctrlp.vim/]**
