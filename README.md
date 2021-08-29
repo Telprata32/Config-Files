@@ -21,40 +21,40 @@ After downloading the config files, here is the procedure
 ## General
 ### Incremental search
 #### - After Inc. Search:
-**Next Search** - n  
-**Prev. Search** - N
+**Next Search** - `n`  
+**Prev. Search** - `N`
 #### - During Inc. Search:
-**Next Search** - \<C-g>  
-**Prev. Search** - \<C-t>  
+**Next Search** - `\<C-g>`  
+**Prev. Search** - `\<C-t>` 
 
 
 ### Moving Splits
-**Far Left** - \<C-w>H  
-**Far Right** - \<C-w>L  
-**Far Down** - \<C-w>J  
-**Far Up** - \<C-w>K  
+**Far Left** - `\<C-w>H`  
+**Far Right** - `\<C-w>L`  
+**Far Down** - `\<C-w>J`  
+**Far Up** - `\<C-w>K` 
 
 
 ### Maximizing/Minimizing Splits
-**Max/Min** - \<leader>z
+**Max/Min** - `\<leader>z`
 ## Vim-Fugitive
-**\<leader\>g** - bring up vim-fugitive menu
+**`\<leader\>g`** - bring up vim-fugitive menu
 ## Vim-Tagbar (To view all variables/functions/classes/etc)
-**\<leader\>v** - bring up tagbar 
+**`\<leader\>v`** - bring up tagbar 
 ## Gitgutter
-**]c** - next hunk  
-**\[c** - previous hunk  
-**\<leader\>hp** - preview diff hunk  
-**\<leader\>hs** - stage hunk  
-**\<leader\>hu** - undo hunk
+**`]c`** - next hunk  
+**`\[c`** - previous hunk  
+**`\<leader\>hp`** - preview diff hunk  
+**`\<leader\>hs`** - stage hunk  
+**`\<leader\>hu`** - undo hunk
 ## Ctags
-**\<C-]>** - go to variable/function's declaration  
-**\<C-t>** - go back to original cursor location
+**`\<C-]>`** - go to variable/function's declaration  
+**`\<C-t>`** - go back to original cursor location
 
 ## Vim CtrlP (like Ctrl + P on VS Code)
-**\<C-p>** - to start up  
-**\<C-f>** - cycle to next mode  
-**\<C-b>** - cycle to previous mode  
-**\<C-d>** - switch to "Search by file name" (press again to switch back  
+**`\<C-p>`** - to start up  
+**`\<C-f>`** - cycle to next mode  
+**`\<C-b>`** - cycle to previous mode  
+**`\<C-d>`** - switch to "Search by file name" (press again to switch back  
 
 **[Full CtrlP documentation: http://ctrlpvim.github.io/ctrlp.vim/]**
