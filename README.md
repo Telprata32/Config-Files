@@ -39,8 +39,7 @@ After downloading the config files, here is the procedure
 
 ### Moving lines up/down the editor
 
-**Move up** - `\<A-k>`  
-
+**Move up** - `\<A-k>`
 **Move down** - `\<A-j>`
 
 ### Maximizing/Minimizing Splits
