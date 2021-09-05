@@ -19,7 +19,7 @@ After downloading the config files, here is the procedure
 
 # Vim KeyBindings 
 ## General
-**Append next line end of the current line** - J 
+**Append next line end of the current line** - `J` 
 
 ### Incremental search
 
