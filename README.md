@@ -19,7 +19,10 @@ After downloading the config files, here is the procedure
 
 # Vim KeyBindings 
 ## General
+**Append next line end of the current line** - J 
+
 ### Incremental search
+
 #### - After Inc. Search:
 **Next Search** - `n`  
 **Prev. Search** - `N`
@@ -32,13 +35,20 @@ After downloading the config files, here is the procedure
 **Far Left** - `\<C-w>H`  
 **Far Right** - `\<C-w>L`  
 **Far Down** - `\<C-w>J`  
-**Far Up** - `\<C-w>K` 
+**Far Up** - `\<C-w>K`    
 
+### Moving lines up/down the editor
+
+**Move up** - `\<A-k>`  
+
+**Move down** - `\<A-j>`
 
 ### Maximizing/Minimizing Splits
+
 **Max/Min** - `\<leader>z`
 ## Vim-Fugitive
 **`\<leader\>g`** - bring up vim-fugitive menu
+
 ## Vim-Tagbar (To view all variables/functions/classes/etc)
 **`\<leader\>v`** - bring up tagbar 
 ## Gitgutter
@@ -58,3 +68,4 @@ After downloading the config files, here is the procedure
 **`\<C-d>`** - switch to "Search by file name" (press again to switch back  
 
 **[Full CtrlP documentation: http://ctrlpvim.github.io/ctrlp.vim/]**
+
