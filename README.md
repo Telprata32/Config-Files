@@ -19,7 +19,9 @@ After downloading the config files, here is the procedure
 
 # Vim KeyBindings 
 ## General
-**Append next line end of the current line** - `J` 
+**Append next line end of the current line** - `J`   
+
+**Delete a whole line of text but the line break (\n)** - `\<A-d>`
 
 ### Incremental search
 
