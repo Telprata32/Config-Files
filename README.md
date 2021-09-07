@@ -21,7 +21,7 @@ After downloading the config files, here is the procedure
 ## General
 **Append next line end of the current line** - `J`   
 
-**Delete a whole line of text but the line break (\n)** - `\<A-d>`
+**Delete a whole line of text but the line break (n)** - `<A-d>`
 
 ### Incremental search
 
@@ -29,49 +29,49 @@ After downloading the config files, here is the procedure
 **Next Search** - `n`  
 **Prev. Search** - `N`
 #### - During Inc. Search:
-**Next Search** - `\<C-g>`  
-**Prev. Search** - `\<C-t>` 
+**Next Search** - `<C-g>`  
+**Prev. Search** - `<C-t>` 
 
 
 ### Moving Splits
-**Far Left** - `\<C-w>H`  
-**Far Right** - `\<C-w>L`  
-**Far Down** - `\<C-w>J`  
-**Far Up** - `\<C-w>K`    
+**Far Left** - `<C-w>H`  
+**Far Right** - `<C-w>L`  
+**Far Down** - `<C-w>J`  
+**Far Up** - `<C-w>K`    
 
 ### Moving lines up/down the editor
 
-**Move up** - `\<A-k>`  
-**Move down** - `\<A-j>`
+**Move up** - `<A-k>`  
+**Move down** - `<A-j>`
 
 ### Maximizing/Minimizing Splits
 
-**Max/Min** - `\<leader>z`
+**Max/Min** - `<leader>z`
 ## Vim-Fugitive
-**`\<leader\>g`** - bring up vim-fugitive menu
+**`<leader>g`** - bring up vim-fugitive menu
 
 ## Vim-Tagbar (To view all variables/functions/classes/etc)
-**`\<leader\>v`** - bring up tagbar 
+**`<leader>v`** - bring up tagbar 
 ## Gitgutter
 **`]c`** - next hunk  
-**`\[c`** - previous hunk  
-**`\<leader\>hp`** - preview diff hunk  
-**`\<leader\>hs`** - stage hunk  
-**`\<leader\>hu`** - undo hunk
+**`[c`** - previous hunk  
+**`<leader>hp`** - preview diff hunk  
+**`<leader>hs`** - stage hunk  
+**`<leader>hu`** - undo hunk
 ## Ctags
-**`\<C-]>`** - go to variable/function's declaration  
-**`\<C-t>`** - go back to original cursor location
+**`<C-]>`** - go to variable/function's declaration  
+**`<C-t>`** - go back to original cursor location
 
 ## Vim CtrlP (like Ctrl + P on VS Code)
-**`\<C-p>`** - to start up  
-**`\<C-f>`** - cycle to next mode  
-**`\<C-b>`** - cycle to previous mode  
-**`\<C-d>`** - switch to "Search by file name" (press again to switch back  
+**`<C-p>`** - to start up  
+**`<C-f>`** - cycle to next mode  
+**`<C-b>`** - cycle to previous mode  
+**`<C-d>`** - switch to "Search by file name" (press again to switch back  
 
 **[Full CtrlP documentation: http://ctrlpvim.github.io/ctrlp.vim/]**
 
 ## Nerd Commenter
-**`\<C-_>`** - Toggles the comment state of selected lines  
-**`\<leader>`** - Comments out selected lines with a pretty block format  
+**`<C-_>`** - Toggles the comment state of selected lines  
+**`<leader>`** - Comments out selected lines with a pretty block format  
 
 [More info at: [https://github.com/preservim/nerdcommenter](https://github.com/preservim/nerdcommenter)]
