@@ -68,10 +68,10 @@ After downloading the config files, here is the procedure
 **`<C-b>`** - cycle to previous mode  
 **`<C-d>`** - switch to "Search by file name" (press again to switch back)
 
-**[Full CtrlP documentation: http://ctrlpvim.github.io/ctrlp.vim/]**
+**[Full CtrlP documentation: [http://ctrlpvim.github.io/ctrlp.vim](/http://ctrlpvim.github.io/ctrlp.vim/)]**
 
 ## Nerd Commenter
 **`<C-_>`** - Toggles the comment state of selected lines ("_" represents "/")  
 **`<leader>cs`** - Comments out selected lines with a pretty block format  
 
-[More info at: [https://github.com/preservim/nerdcommenter](https://github.com/preservim/nerdcommenter)]
+**[More info at: [https://github.com/preservim/nerdcommenter](https://github.com/preservim/nerdcommenter)]**
