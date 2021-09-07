@@ -72,6 +72,6 @@ After downloading the config files, here is the procedure
 
 ## Nerd Commenter
 **`<C-_>`** - Toggles the comment state of selected lines ("_" represents "/")  
-**`<leader>`** - Comments out selected lines with a pretty block format  
+**`<leader>cs`** - Comments out selected lines with a pretty block format  
 
 [More info at: [https://github.com/preservim/nerdcommenter](https://github.com/preservim/nerdcommenter)]
