@@ -70,3 +70,8 @@ After downloading the config files, here is the procedure
 
 **[Full CtrlP documentation: http://ctrlpvim.github.io/ctrlp.vim/]**
 
+## Nerd Commenter
+**`\<C-_>`** - Toggles the comment state of selected lines  
+**`\<leader>`** - Comments out selected lines with a pretty block format  
+
+[More info at: [https://github.com/preservim/nerdcommenter](https://github.com/preservim/nerdcommenter)]
