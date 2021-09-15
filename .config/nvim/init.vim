@@ -20,7 +20,7 @@ set scrolloff=5
 augroup vimrc-incsearch-highlight
 	autocmd!
 	autocmd CmdlineEnter /,\? :set hlsearch
-	autocmd CmdlineLeave /,\? :set nohlsearch
+
 augroup END
 		
 "Set word wrap and line break for txt files only
@@ -81,6 +81,7 @@ call plug#begin('~/.vim/plugged')
 
 Plug 'svermeulen/vim-cutlass' "Plugin to make it so that the delete functions do not replace the copied/cut segments
 Plug 'uiiaoo/java-syntax.vim'
+Plug 'jceb/vim-orgmode' " Plugin to add Org Mode to VIM
 Plug 'scrooloose/nerdtree'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'Xuyuanp/nerdtree-git-plugin'
@@ -307,6 +308,8 @@ let g:closetag_close_shortcut = '<leader>>'
 
 " ---------------------- Aesthetic -------------------------------
 "set colorscheme
-colorscheme seoul256
+let g:everforest_background = 'soft'
+let g:everforest_enable_italic = 1
+colorscheme everforest
 let g:airline_theme='everforest'
 "highlight Normal guibg=none
