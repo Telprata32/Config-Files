@@ -20,9 +20,11 @@ set scrolloff=5
 augroup vimrc-incsearch-highlight
 	autocmd!
 	autocmd CmdlineEnter /,\? :set hlsearch
-
 augroup END
 		
+" Press Space to turn off highlighting and clear any message already displayed; In case the temporary hlsearch above doesn't go off
+nnoremap <silent> <Space> :nohlsearch<Bar>:echo<CR>
+
 "Set word wrap and line break for txt files only
 autocmd BufRead,BufNewFile   *.txt setlocal wrap linebreak
 
