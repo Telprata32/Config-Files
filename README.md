@@ -17,6 +17,11 @@ After downloading the config files, here is the procedure
 1. Run the "sudo apt install ccls" (for the c++ support in the coc-settings.json file)
 2. Install the ctags from https://github.com/universal-ctags/ctags and follow the steps
 
+Extra notes
+
+1. Fonts used for terminal and vim in general: CaskaydiaCove Nerd Font
+2. Ligatures enabled for vim and terminal
+
 # Vim KeyBindings 
 ## General
 **Append next line end of the current line** - `J`   
@@ -75,3 +80,6 @@ After downloading the config files, here is the procedure
 **`<leader>cs`** - Comments out selected lines with a pretty block format  
 
 **[More info at: [https://github.com/preservim/nerdcommenter](https://github.com/preservim/nerdcommenter)]**
+
+## Check out in the future
+- Snippets feature for vim: [https://bhupesh-v.github.io/learn-how-to-use-code-snippets-vim-cowboy/](https://bhupesh-v.github.io/learn-how-to-use-code-snippets-vim-cowboy/)
