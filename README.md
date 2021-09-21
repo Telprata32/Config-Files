@@ -22,6 +22,10 @@ Extra notes
 1. Fonts used for terminal and vim in general: CaskaydiaCove Nerd Font
 2. Ligatures enabled for vim and terminal
 
+# General Terminal KeyBindings
+**Zoom In** - Ctrl +  
+**Zoom Out** - Ctrl -  
+**Reset Zoom** - Ctrl + Alt + 0  
 # Vim KeyBindings 
 ## General
 **Append next line end of the current line** - `J`   
