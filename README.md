@@ -7,6 +7,7 @@ Set up the git bare folder ("dotfiles") before doing anything:
 3. Do a "git init --bare into the file"
 4. Download fish and copy the .config/fish/config.fish texts and paste into local config.fish
 5. Then perform a "config clone {this repo}" in the home folder
+6. Lastly, perform a "config config --local status.showUntrackedFiles no" to not track the unnecassary files **[Check if the status of the git status first if this is necessary or not]**
 
 Pre-Requirsites for setting up vim:
 1. install nodejs
