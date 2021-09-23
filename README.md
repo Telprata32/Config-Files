@@ -31,7 +31,7 @@ Extra notes
 ## General
 **Append next line end of the current line** - `J`   
 
-**Delete a whole line of text but the line break (n)** - `<A-d>`
+**Delete a whole line of text but the line break ("\n")** - `<A-d>`
 
 ### Incremental search
 
