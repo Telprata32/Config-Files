@@ -25,8 +25,9 @@ augroup END
 " Press Space to turn off highlighting and clear any message already displayed; In case the temporary hlsearch above doesn't go off
 nnoremap <silent> <Space> :nohlsearch<Bar>:echo<CR>
 
-"Set word wrap and line break for txt files only
+"Set word wrap and line break for txt and md files only
 autocmd BufRead,BufNewFile   *.txt setlocal wrap linebreak
+autocmd BufRead,BufNewFile   *.md setlocal wrap linebreak
 
 "Search visually selected word
 vnoremap // y/\V<C-R>=escape(@",'/\')<CR><CR>
@@ -269,7 +270,7 @@ autocmd FileType nerdtree setlocal nolist
 " filenames like *.xml, *.html, *.xhtml, ...
 " These are the file extensions where this plugin is enabled.
 "
-let g:closetag_filenames = '*.html,*.xhtml,*.phtml, *.php'
+let g:closetag_filenames = '*.html,*.xhtml,*.phtml, *.php, *.md'
 
 " filenames like *.xml, *.xhtml, ...
 " This will make the list of non-closing tags self-closing in the specified files.
