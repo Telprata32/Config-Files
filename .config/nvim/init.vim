@@ -41,11 +41,13 @@ nnoremap <Tab> gt
 nnoremap <S-Tab> gT
 " Close a tab 
 nnoremap <A-q> :tabclose<CR>
-"Invoke terminal and split open at the bottom
+" Invoke terminal and split open at the bottom
 noremap <F5> :below split \| term<CR>
 " Save a file with Ctrl+S 
 inoremap <C-s> <esc>:w<CR>
 noremap <C-s> :w<CR>
+" Toggle between bracket pairs
+nnoremap <S-b> %
 
 " Mapping to move lines of texts/codes up or down 
 nnoremap <A-j> :m .+1<CR>==
