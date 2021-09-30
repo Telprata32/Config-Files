@@ -28,12 +28,14 @@ Extra notes
 **Zoom Out** - Ctrl -  
 **Reset Zoom** - Ctrl + Alt + 0  
 # Vim KeyBindings 
-## General [[more](https://vim.rtorr.com/)]
+## General [[CheatSheet](https://vim.rtorr.com/) *Some may differ from custom vim bindings*]
 **Append next line end of the current line** - `J`   
 
 **Delete a whole line of text but the line break ("\n")** - `<A-d>`
 
 ### Incremental search
+
+**//** - Search highlighted word from visual mode
 
 #### - After Inc. Search:
 **Next Search** - `n`  
