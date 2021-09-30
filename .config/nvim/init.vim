@@ -112,6 +112,11 @@ Plug 'tpope/vim-fugitive' "Git plugin for vim
 "Remapping <leader>G to invoke git
 nnoremap <leader>g :G<CR>
 
+" Flutter setup
+Plug 'dart-lang/dart-vim-plugin' "Dart language syntax highlighting
+Plug 'natebosch/vim-lsc' "Dart Language Server Protocol
+Plug 'natebosch/vim-lsc-dart' "Calls vim-lsc to register the analysis server as a language server
+
 " =========== Syntax Highlighters =============
 Plug 'uiiaoo/java-syntax.vim'
 Plug 'vim-python/python-syntax'

@@ -28,7 +28,7 @@ Extra notes
 **Zoom Out** - Ctrl -  
 **Reset Zoom** - Ctrl + Alt + 0  
 # Vim KeyBindings 
-## General
+## General [[more](https://vim.rtorr.com/)]
 **Append next line end of the current line** - `J`   
 
 **Delete a whole line of text but the line break ("\n")** - `<A-d>`
