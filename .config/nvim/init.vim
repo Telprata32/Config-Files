@@ -4,8 +4,8 @@ syntax on
 set encoding=UTF-8
 set nowrap
 set number
-set shiftwidth=4
-set tabstop=4
+set shiftwidth=2
+set tabstop=2
 set noswapfile
 set relativenumber
 set termguicolors
@@ -225,6 +225,7 @@ let g:coc_global_extensions = [
   \	'coc-java',
   \ 'coc-phpls',
   \ 'coc-html',
+  \ 'coc-flutter',
   \ ]
 
 "nmap <Esc> :call coc#float#close_all() <CR>
