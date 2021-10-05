@@ -87,7 +87,7 @@ call plug#begin('~/.vim/plugged')
 Plug 'svermeulen/vim-cutlass' "Plugin to make it so that the delete functions do not replace the copied/cut segments
 Plug 'uiiaoo/java-syntax.vim'
 Plug 'jceb/vim-orgmode' " Plugin to add Org Mode to VIM
-Plug 'scrooloose/nerdtree'
+Plug 'scrooloose/nerdtree' " VIM FileTree explorer sidebar
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'Xuyuanp/nerdtree-git-plugin'
 Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
