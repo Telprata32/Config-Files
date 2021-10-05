@@ -112,9 +112,6 @@ Plug 'tpope/vim-fugitive' "Git plugin for vim
 "Remapping <leader>G to invoke git
 nnoremap <leader>g :G<CR>
 
-" Setup for builtin nvim lsp, (available only for 0.5 and above)
-Plug 'neovim/nvim-lspconfig'
-
 " Flutter setup
 Plug 'dart-lang/dart-vim-plugin' "Dart language syntax highlighting
 Plug 'natebosch/vim-lsc' "Dart Language Server Protocol
