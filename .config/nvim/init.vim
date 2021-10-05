@@ -120,6 +120,9 @@ Plug 'natebosch/vim-lsc-dart' "Calls vim-lsc to register the analysis server as 
 " Snippets setup
 Plug 'SirVer/ultisnips'
 Plug 'honza/vim-snippets'
+" Snippets keybindings
+let g:UltiSnipsJumpForwardTrigger="<c-j>"                                       
+let g:UltiSnipsJumpBackwardTrigger="<c-k>"
 
 " =========== Syntax Highlighters =============
 Plug 'uiiaoo/java-syntax.vim'
