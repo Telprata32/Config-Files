@@ -117,6 +117,10 @@ Plug 'dart-lang/dart-vim-plugin' "Dart language syntax highlighting
 Plug 'natebosch/vim-lsc' "Dart Language Server Protocol
 Plug 'natebosch/vim-lsc-dart' "Calls vim-lsc to register the analysis server as a language server
 
+" Snippets setup
+Plug 'SirVer/ultisnips'
+Plug 'honza/vim-snippets'
+
 " =========== Syntax Highlighters =============
 Plug 'uiiaoo/java-syntax.vim'
 Plug 'vim-python/python-syntax'
