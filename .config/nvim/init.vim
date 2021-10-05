@@ -4,8 +4,8 @@ syntax on
 set encoding=UTF-8
 set nowrap
 set number
-set shiftwidth=2
-set tabstop=2
+set shiftwidth=4
+set tabstop=4
 set noswapfile
 set relativenumber
 set termguicolors
