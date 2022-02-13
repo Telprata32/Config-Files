@@ -57,9 +57,6 @@ inoremap <A-k> <Esc>:m .-2<CR>==gi
 vnoremap <A-j> :m '>+1<CR>gv=gv
 vnoremap <A-k> :m '<-2<CR>gv=gv
 
-" Instant delete a full line of text without deleting the line itself (line break)
-nnoremap <A-d> 0D
-
 " Remaping for CAPS key in vim
 " Execute 'lnoremap x X' and 'lnoremap X x' for each letter a-z.
 for c in range(char2nr('A'), char2nr('Z'))
@@ -111,6 +108,10 @@ Plug 'szw/vim-maximizer'
 Plug 'tpope/vim-fugitive' "Git plugin for vim
 "Remapping <leader>G to invoke git
 nnoremap <leader>g :G<CR>
+
+" Markdown editing setup
+"Plug 'godlygeek/tabular' "Aligning text 
+Plug 'plasticboy/vim-markdown'
 
 " Flutter setup
 Plug 'dart-lang/dart-vim-plugin' "Dart language syntax highlighting
