@@ -52,10 +52,14 @@ nnoremap <S-b> %
 " Mapping to move lines of texts/codes up or down 
 nnoremap <A-j> :m .+1<CR>==
 nnoremap <A-k> :m .-2<CR>==
-inoremap <A-j> <Esc>:m .+1<CR>==gi
-inoremap <A-k> <Esc>:m .-2<CR>==gi
 vnoremap <A-j> :m '>+1<CR>gv=gv
 vnoremap <A-k> :m '<-2<CR>gv=gv
+
+" Moving cursor while in insert mode
+inoremap <A-j> <Down>
+inoremap <A-k> <Up>
+inoremap <A-h> <Left>
+inoremap <A-l> <Right>
 
 " Remaping for CAPS key in vim
 " Execute 'lnoremap x X' and 'lnoremap X x' for each letter a-z.
