@@ -51,7 +51,7 @@ Extra notes
 **Far Down** - `<C-w>J`  
 **Far Up** - `<C-w>K`    
 
-### Moving lines up/down the editor
+### Moving lines up/down the editor (Only in Normal and Visual Mode)
 
 **Move up** - `<A-k>`  
 **Move down** - `<A-j>`
