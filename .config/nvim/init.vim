@@ -4,8 +4,8 @@ syntax on
 set encoding=UTF-8
 set nowrap
 set number
-set shiftwidth=4
-set tabstop=4
+set shiftwidth=2
+set tabstop=2
 set noswapfile
 set relativenumber
 set termguicolors
@@ -133,6 +133,10 @@ let g:UltiSnipsJumpBackwardTrigger="<c-k>"
 Plug 'uiiaoo/java-syntax.vim'
 Plug 'vim-python/python-syntax'
 Plug 'octol/vim-cpp-enhanced-highlight'
+" Javascript and JSX
+Plug 'pangloss/vim-javascript'
+Plug 'MaxMEllon/vim-jsx-pretty'
+
 " ======================== Vim Debugger =========================
 Plug 'puremourning/vimspector'
 
